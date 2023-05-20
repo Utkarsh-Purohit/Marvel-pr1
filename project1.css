@@ -1,0 +1,120 @@
+
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        background-color: black;
+        background-image: url("787499.jpg");
+        background-position-y: 80px;
+        background-repeat: no-repeat;
+        background-size: 1700px, 350px;
+    }
+
+    .left {
+        display: inline-block;
+    }
+
+    .left div {
+        position: absolute;
+        top: 77px;
+        left: 50px;
+        font-size: small;
+    }
+
+    .left img {
+        position: absolute;
+        top: 8px;
+        left: 30px;
+        width: 140px;
+        height: 62px;
+    }
+
+    .mid {
+        position: absolute;
+        top: 0px;
+        left: 210px;
+        display: block;
+        width: 70%;
+        height: 75px;
+    }
+
+    .navbar {
+        background-color: black;
+        margin: 25px 75px;
+        display: inline-block;
+        /* border: 1px solid white; */
+    }
+
+    .navbar li {
+        display: inline-block;
+    }
+
+    .navbar li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding: 15px 12px;
+    }
+
+    .navbar li a :hover {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .right {
+        color: red;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        display: inline-block;
+        margin: 12px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 32px;
+        color: white;
+        background-color: black;
+        margin: 6px;
+        border: 2px solid white;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 5px;
+    }
+    .container{
+        /* border: 1px solid white; */
+        width: 25%;
+        margin: 180px;
+        margin-left: 30px;
+        padding: 75px;
+        /* border-radius: 15px; */
+    }
+    .forms input{
+        text-align: center;
+        display: block;
+        margin: 15px ;
+        width: 300px;
+        padding: 5px;
+        border: 2px solid white;
+        border-radius: 15px;
+    }
+    .container h3{
+        display: inline-block;
+        position: relative;
+        left: 40px;
+        padding: 10px;
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 15%;
+        position: absolute;
+        left: 190px;
+    }
+    .btn:hover {
+        background-color: red;
+    }
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: red;
+    }
